@@ -494,7 +494,7 @@ class MedicalSearchResultsSidenavComponent {
     }
 }
 MedicalSearchResultsSidenavComponent.ɵfac = function MedicalSearchResultsSidenavComponent_Factory(t) { return new (t || MedicalSearchResultsSidenavComponent)(); };
-MedicalSearchResultsSidenavComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MedicalSearchResultsSidenavComponent, selectors: [["app-medical-search-results-sidenav"]], inputs: { cardData: "cardData" }, decls: 8, vars: 3, consts: [["color", "primary", 1, "sample-card"]], template: function MedicalSearchResultsSidenavComponent_Template(rf, ctx) { if (rf & 1) {
+MedicalSearchResultsSidenavComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MedicalSearchResultsSidenavComponent, selectors: [["app-medical-search-results-sidenav"]], inputs: { cardData: "cardData" }, decls: 9, vars: 3, consts: [["color", "primary", 1, "sample-card"]], template: function MedicalSearchResultsSidenavComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-card", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-card-title");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2");
@@ -502,20 +502,22 @@ MedicalSearchResultsSidenavComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MOD
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "mat-card-subtitle");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-card-content");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "mat-card-content");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.cardData.cardTitle);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.cardData.cardSubtitle);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.cardData.cardBody, " ");
-    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardSubtitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardContent"]], styles: [".sample-card[_ngcontent-%COMP%] {\r\n  border-radius: 5px;\r\n   margin: 1rem;\r\n  position: relative;\r\n  width: 900px;\r\n  border: 1px solid #7B1FA2;\r\n}\r\n\r\n.mat-card-content[_ngcontent-%COMP%]{\r\n  font-size: 12px;\r\n}\r\n\r\nh2[_ngcontent-%COMP%]{\r\n  font-size: 14px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lZGljYWwtc2VhcmNoLXJlc3VsdHMtc2lkZW5hdi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQWtCO0dBQ2pCLFlBQVk7RUFDYixrQkFBa0I7RUFDbEIsWUFBWTtFQUNaLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLGVBQWU7QUFDakI7O0FBQ0E7RUFDRSxlQUFlO0FBQ2pCIiwiZmlsZSI6Im1lZGljYWwtc2VhcmNoLXJlc3VsdHMtc2lkZW5hdi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNhbXBsZS1jYXJkIHtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgIG1hcmdpbjogMXJlbTtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgd2lkdGg6IDkwMHB4O1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkICM3QjFGQTI7XHJcbn1cclxuXHJcbi5tYXQtY2FyZC1jb250ZW50e1xyXG4gIGZvbnQtc2l6ZTogMTJweDtcclxufVxyXG5oMntcclxuICBmb250LXNpemU6IDE0cHg7XHJcbn0iXX0= */"] });
+    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardSubtitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardContent"]], styles: [".sample-card[_ngcontent-%COMP%] {\r\n  border-radius: 5px;\r\n   margin: 1rem;\r\n  position: relative;\r\n  width: 900px;\r\n  border: 1px solid #7B1FA2;\r\n}\r\n\r\n.mat-card-subtitle[_ngcontent-%COMP%] {\r\n  color: #FCC419;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n}\r\n\r\n.mat-card-title[_ngcontent-%COMP%] {\r\n  color: #7B1FA2;\r\n}\r\n\r\n.mat-card-content[_ngcontent-%COMP%]{\r\n  font-size: 12px;\r\n}\r\n\r\nh2[_ngcontent-%COMP%]{\r\n  font-size: 14px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lZGljYWwtc2VhcmNoLXJlc3VsdHMtc2lkZW5hdi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQWtCO0dBQ2pCLFlBQVk7RUFDYixrQkFBa0I7RUFDbEIsWUFBWTtFQUNaLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCx5Q0FBeUM7QUFDM0M7O0FBRUE7RUFDRSxjQUFjO0FBQ2hCOztBQUNBO0VBQ0UsZUFBZTtBQUNqQjs7QUFDQTtFQUNFLGVBQWU7QUFDakIiLCJmaWxlIjoibWVkaWNhbC1zZWFyY2gtcmVzdWx0cy1zaWRlbmF2LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc2FtcGxlLWNhcmQge1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICAgbWFyZ2luOiAxcmVtO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICB3aWR0aDogOTAwcHg7XHJcbiAgYm9yZGVyOiAxcHggc29saWQgIzdCMUZBMjtcclxufVxyXG5cclxuLm1hdC1jYXJkLXN1YnRpdGxlIHtcclxuICBjb2xvcjogI0ZDQzQxOTtcclxuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxufVxyXG5cclxuLm1hdC1jYXJkLXRpdGxlIHtcclxuICBjb2xvcjogIzdCMUZBMjtcclxufVxyXG4ubWF0LWNhcmQtY29udGVudHtcclxuICBmb250LXNpemU6IDEycHg7XHJcbn1cclxuaDJ7XHJcbiAgZm9udC1zaXplOiAxNHB4O1xyXG59Il19 */"] });
 
 
 /***/ }),
@@ -1009,12 +1011,12 @@ class MedicalSearchResultsComponent {
         this.cards.push({
             cardTitle: "De Quervain's Tenosynovitis",
             cardBody: "1.	Tab. Paracetamol 650mg Thrice daily after food for 5 days, Twice daily after food for 10 days 2.	Cold Pack at site of pain (at 2-3 hourly intervals, 3-5 mins per session) 3.	De Quervain’s Splint (wear it while working, can remove it when resting)",
-            cardSubtitle: ""
+            cardSubtitle: "General"
         });
         this.cards.push({
             cardTitle: "De Quervain's Tenosynovitis",
             cardBody: "1.	Tab. Paracetamol 650mg Thrice daily after food for 5 days, Twice daily after food for 10 days 2.	Cold Pack at site of pain (at 2-3 hourly intervals, 3-5 mins per session) 3.	De Quervain’s Splint (wear it while working, can remove it when resting)",
-            cardSubtitle: ""
+            cardSubtitle: "General"
         });
         this.cards.push({
             cardTitle: "De Quervain's Tenosynovitis",
